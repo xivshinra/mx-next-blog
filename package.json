@@ -9,15 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@next/mdx": "^16.1.1",
     "@mdx-js/loader": "^3.1.1",
     "@mdx-js/react": "^3.1.1",
-    "mdx": "^0.3.1",
+    "@next/mdx": "^16.1.1",
     "@radix-ui/react-avatar": "^1.1.11",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.562.0",
+    "mdx": "^0.3.1",
     "next": "16.1.1",
     "next-themes": "^0.4.6",
     "react": "19.2.3",
