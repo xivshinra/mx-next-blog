@@ -1,0 +1,31 @@
+export const meta = {
+  title:
+    "Demo post with a pretty long and boring title that should be wrapped in a h1 tag",
+  description:
+    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dicta distinctio, placeat culpa et voluptates autem molestias blanditiis optio excepturi.",
+  date: "2026-01-10",
+  slug: "demo-post",
+  tags: ["sciences", "demo"],
+  image: "/assets/placeholder.jpg",
+};
+
+<h1 className="text-2xl lg:text-4xl font-bold">{meta.title}</h1>
+
+<PostSection title="Introduction">
+  <PostParagraph>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in maxime quaerat quidem sed ducimus perspiciatis optio incidunt repudiandae harum porro dolores assumenda architecto, nostrum non nobis soluta accusantium totam repellat. Atque quos corporis sed iusto animi ea dolores laborum placeat id quae, a veritatis, illum vel architecto laudantium? Cumque.
+  </PostParagraph>
+
+  <PostParagraph>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt autem doloremque, voluptate odit perferendis laboriosam atque nemo, architecto laudantium consectetur, iure dolor eveniet tempora possimus iusto assumenda reiciendis nobis! Harum adipisci velit vitae dolorum voluptatibus dignissimos soluta exercitationem facere sed delectus perferendis ipsum odio itaque deleniti iure quis numquam, eius praesentium! Vero maxime id aut ut, magnam consequatur quisquam, molestias, blanditiis explicabo nobis harum aliquam necessitatibus debitis obcaecati officia dignissimos illum libero itaque sit quibusdam nisi vel eius ea. Hic dolorum quam unde itaque asperiores sint et perspiciatis quos. Quam dolores corrupti commodi reprehenderit hic nobis ad perferendis maxime rem.
+  </PostParagraph>
+  <PostParagraph>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt autem doloremque, voluptate odit perferendis laboriosam atque nemo, architecto laudantium consectetur, iure dolor eveniet tempora possimus iusto assumenda reiciendis nobis! Harum adipisci velit vitae dolorum voluptatibus dignissimos soluta exercitationem facere sed delectus perferendis ipsum odio itaque deleniti iure quis numquam, eius praesentium! Vero maxime id aut ut, magnam consequatur quisquam, molestias, blanditiis explicabo nobis harum aliquam necessitatibus debitis obcaecati officia dignissimos illum libero itaque sit quibusdam nisi vel eius ea. Hic dolorum quam unde itaque asperiores sint et perspiciatis quos. Quam dolores corrupti commodi reprehenderit hic nobis ad perferendis maxime rem.
+  </PostParagraph>
+</PostSection>
+
+<PostCallout>
+  Here is a custom callout component that is used to highlight important
+  informations.
+</PostCallout>
+<PostCallout>And we can use it multiple times.</PostCallout>
