@@ -16,7 +16,6 @@ export default function BlogPage() {
   return (
     <div className="grid grid-cols-12 gap-4">
       {Object.values(posts).map((post) => {
-        // 👇 ICI, au début du map
         const imageSrc = post.metadata.image ?? "/assets/placeholder.jpg";
 
         return (
@@ -29,7 +28,7 @@ export default function BlogPage() {
                 href={`/blog/${post.metadata.slug}`}
                 className="text-xl font-medium"
               >
-                {post.metadata.title}
+                <h2 className="line-clamp-1">{post.metadata.title}</h2>
               </Link>
             </CardHeader>
 

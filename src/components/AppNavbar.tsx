@@ -24,9 +24,9 @@ export default function AppNavbar() {
           <ModeToggle />
         </li>
         <li>
-          <Avatar>
+          <Avatar className="shadow">
             <AvatarImage
-              src="/assets/placeholder.jpg"
+              src="/assets/avatar.jpg"
               alt="Avatar"
             />
             <AvatarFallback>SH</AvatarFallback>
